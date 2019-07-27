@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login With Account Kit</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row center style="text-align: center; margin-top: 100px">
+    <ion-col>
+      <ion-input type='number' placeholder='Please enter phone number' [(ngModel)]="phone"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row center style="text-align: center;">
+    <ion-col>
+      <ion-button (click)="login()">Login</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>
